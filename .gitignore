@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+*.pem
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Temporary files
+*.log
+*.tmp
