@@ -36,3 +36,6 @@ kaggle.json
 # Temporary files
 *.log
 *.tmp
+
+# data
+data/*.csv
