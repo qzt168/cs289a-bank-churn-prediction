@@ -39,3 +39,7 @@ kaggle.json
 
 # data
 data/*.csv
+# Persist these in Drive, not Git
+models/
+*.joblib
+data/**/*.csv
