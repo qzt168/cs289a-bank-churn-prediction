@@ -1,0 +1,186 @@
+{
+  "dataset_id": "ff1e0eb402d364adaf0c3f9cc8b2351cde0657642bf4cb3ed56efcf31b67d1b0",
+  "split_id": "dc594d72745a65dc91937de31acb3e537c349028656b16548fce01eac4064243",
+  "implementation_version": "1",
+  "selection_rule": "Validation ROC-AUC, F1 tie-break",
+  "models": {
+    "lr": {
+      "implementation": "1",
+      "model": "lr",
+      "hp": {
+        "C": 0.01
+      },
+      "seed": 42,
+      "dataset": "ff1e0eb402d364adaf0c3f9cc8b2351cde0657642bf4cb3ed56efcf31b67d1b0",
+      "split": "dc594d72745a65dc91937de31acb3e537c349028656b16548fce01eac4064243",
+      "split_content": "508f677fcccd5b3ecb4a67eee2a68ee0e37c849b99b61959a0ed557a0716856c",
+      "subset": "f402b24eb3e3cfe2edee9c791fe48c3383fb90767b4b112ea9cb326a92c487a0",
+      "fraction": 1.0,
+      "removed": "none",
+      "features": [
+        "Geography",
+        "Gender",
+        "Age",
+        "CreditScore",
+        "Balance",
+        "EstimatedSalary",
+        "Tenure",
+        "NumOfProducts",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "preprocessing": {
+        "version": 1,
+        "numeric_imputer": "median",
+        "categorical_imputer": "most_frequent",
+        "encoding": "onehot-ignore-unknown",
+        "scale_numeric": true
+      },
+      "versions": {
+        "python": "3.13.18",
+        "numpy": "2.4.6",
+        "pandas": "2.2.3",
+        "sklearn": "1.6.1",
+        "torch": "2.14.1+cpu",
+        "joblib": "1.6.0"
+      },
+      "device": "cpu"
+    },
+    "mlp": {
+      "implementation": "1",
+      "model": "mlp",
+      "hp": {
+        "lr": 0.0005,
+        "batch_size": 256,
+        "epochs": 40,
+        "patience": 6,
+        "min_delta": 0.0001,
+        "hidden": [
+          64
+        ],
+        "dropout": 0.0
+      },
+      "seed": 42,
+      "dataset": "ff1e0eb402d364adaf0c3f9cc8b2351cde0657642bf4cb3ed56efcf31b67d1b0",
+      "split": "dc594d72745a65dc91937de31acb3e537c349028656b16548fce01eac4064243",
+      "split_content": "508f677fcccd5b3ecb4a67eee2a68ee0e37c849b99b61959a0ed557a0716856c",
+      "subset": "f402b24eb3e3cfe2edee9c791fe48c3383fb90767b4b112ea9cb326a92c487a0",
+      "fraction": 1.0,
+      "removed": "none",
+      "features": [
+        "Geography",
+        "Gender",
+        "Age",
+        "CreditScore",
+        "Balance",
+        "EstimatedSalary",
+        "Tenure",
+        "NumOfProducts",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "preprocessing": {
+        "version": 1,
+        "numeric_imputer": "median",
+        "categorical_imputer": "most_frequent",
+        "encoding": "onehot-ignore-unknown",
+        "scale_numeric": true
+      },
+      "versions": {
+        "python": "3.13.18",
+        "numpy": "2.4.6",
+        "pandas": "2.2.3",
+        "sklearn": "1.6.1",
+        "torch": "2.14.1+cpu",
+        "joblib": "1.6.0"
+      },
+      "device": "cpu"
+    },
+    "rf": {
+      "implementation": "1",
+      "model": "rf",
+      "hp": {
+        "n_estimators": 200,
+        "max_depth": 12,
+        "min_samples_leaf": 4
+      },
+      "seed": 42,
+      "dataset": "ff1e0eb402d364adaf0c3f9cc8b2351cde0657642bf4cb3ed56efcf31b67d1b0",
+      "split": "dc594d72745a65dc91937de31acb3e537c349028656b16548fce01eac4064243",
+      "split_content": "508f677fcccd5b3ecb4a67eee2a68ee0e37c849b99b61959a0ed557a0716856c",
+      "subset": "f402b24eb3e3cfe2edee9c791fe48c3383fb90767b4b112ea9cb326a92c487a0",
+      "fraction": 1.0,
+      "removed": "none",
+      "features": [
+        "Geography",
+        "Gender",
+        "Age",
+        "CreditScore",
+        "Balance",
+        "EstimatedSalary",
+        "Tenure",
+        "NumOfProducts",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "preprocessing": {
+        "version": 1,
+        "numeric_imputer": "median",
+        "categorical_imputer": "most_frequent",
+        "encoding": "onehot-ignore-unknown",
+        "scale_numeric": false
+      },
+      "versions": {
+        "python": "3.13.18",
+        "numpy": "2.4.6",
+        "pandas": "2.2.3",
+        "sklearn": "1.6.1",
+        "torch": "2.14.1+cpu",
+        "joblib": "1.6.0"
+      },
+      "device": "cpu"
+    },
+    "svm": {
+      "implementation": "1",
+      "model": "svm",
+      "hp": {
+        "C": 0.001
+      },
+      "seed": 42,
+      "dataset": "ff1e0eb402d364adaf0c3f9cc8b2351cde0657642bf4cb3ed56efcf31b67d1b0",
+      "split": "dc594d72745a65dc91937de31acb3e537c349028656b16548fce01eac4064243",
+      "split_content": "508f677fcccd5b3ecb4a67eee2a68ee0e37c849b99b61959a0ed557a0716856c",
+      "subset": "f402b24eb3e3cfe2edee9c791fe48c3383fb90767b4b112ea9cb326a92c487a0",
+      "fraction": 1.0,
+      "removed": "none",
+      "features": [
+        "Geography",
+        "Gender",
+        "Age",
+        "CreditScore",
+        "Balance",
+        "EstimatedSalary",
+        "Tenure",
+        "NumOfProducts",
+        "HasCrCard",
+        "IsActiveMember"
+      ],
+      "preprocessing": {
+        "version": 1,
+        "numeric_imputer": "median",
+        "categorical_imputer": "most_frequent",
+        "encoding": "onehot-ignore-unknown",
+        "scale_numeric": true
+      },
+      "versions": {
+        "python": "3.13.18",
+        "numpy": "2.4.6",
+        "pandas": "2.2.3",
+        "sklearn": "1.6.1",
+        "torch": "2.14.1+cpu",
+        "joblib": "1.6.0"
+      },
+      "device": "cpu"
+    }
+  }
+}

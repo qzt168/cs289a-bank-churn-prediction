@@ -1,0 +1,21 @@
+{
+  "experiment_id": "3f8644659004570ac71c853eb5d7d1872a23d778976f36f8f4dd0510bfb1119a",
+  "selection_id": "486a542483181936538541b9ffef4d494ddfb834d43cfd286024dd35e5c076ea",
+  "model": "svm",
+  "hyperparameters": "{\"C\":0.01}",
+  "seed": 42,
+  "feature_group_configuration": "none",
+  "training_fraction": 1.0,
+  "dataset_id": "ff1e0eb402d364adaf0c3f9cc8b2351cde0657642bf4cb3ed56efcf31b67d1b0",
+  "split_id": "dc594d72745a65dc91937de31acb3e537c349028656b16548fce01eac4064243",
+  "checkpoint_path": "/content/drive/MyDrive/CS189/CS289A_Graduate_Project/models/svm_3f8644659004570ac71c853eb5d7d1872a23d778976f36f8f4dd0510bfb1119a.joblib",
+  "training_seconds": 0.4485473360000469,
+  "accuracy": 0.8302229762481823,
+  "precision": 0.7064220183486238,
+  "recall": 0.3381061473844979,
+  "f1": 0.45732730794060683,
+  "roc_auc": 0.8133501247964451,
+  "confusion_matrix": "[[18782, 736], [3467, 1771]]",
+  "inference_seconds": 0.038270354999440315,
+  "threshold": 0.0
+}

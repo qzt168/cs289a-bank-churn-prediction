@@ -1,0 +1,21 @@
+{
+  "experiment_id": "67c40a69a3ed1295433fe6119116a3325dc666cff846a87844ee24eb319e891d",
+  "selection_id": "486a542483181936538541b9ffef4d494ddfb834d43cfd286024dd35e5c076ea",
+  "model": "lr",
+  "hyperparameters": "{\"C\":0.1}",
+  "seed": 42,
+  "feature_group_configuration": "none",
+  "training_fraction": 1.0,
+  "dataset_id": "ff1e0eb402d364adaf0c3f9cc8b2351cde0657642bf4cb3ed56efcf31b67d1b0",
+  "split_id": "dc594d72745a65dc91937de31acb3e537c349028656b16548fce01eac4064243",
+  "checkpoint_path": "/content/drive/MyDrive/CS189/CS289A_Graduate_Project/models/lr_67c40a69a3ed1295433fe6119116a3325dc666cff846a87844ee24eb319e891d.joblib",
+  "training_seconds": 0.4455421210000168,
+  "accuracy": 0.8318387461625465,
+  "precision": 0.6878713736455785,
+  "recall": 0.3757159221076747,
+  "f1": 0.4859859241881714,
+  "roc_auc": 0.81274662473672,
+  "confusion_matrix": "[[18625, 893], [3270, 1968]]",
+  "inference_seconds": 0.039527636999991955,
+  "threshold": 0.5
+}

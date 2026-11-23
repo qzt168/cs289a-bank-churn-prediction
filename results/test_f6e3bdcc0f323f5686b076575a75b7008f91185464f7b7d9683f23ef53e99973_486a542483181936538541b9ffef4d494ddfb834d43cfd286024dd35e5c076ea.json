@@ -1,0 +1,21 @@
+{
+  "experiment_id": "f6e3bdcc0f323f5686b076575a75b7008f91185464f7b7d9683f23ef53e99973",
+  "selection_id": "486a542483181936538541b9ffef4d494ddfb834d43cfd286024dd35e5c076ea",
+  "model": "mlp",
+  "hyperparameters": "{\"batch_size\":256,\"dropout\":0.0,\"epochs\":40,\"hidden\":[64],\"lr\":0.0005,\"min_delta\":0.0001,\"patience\":6}",
+  "seed": 42,
+  "feature_group_configuration": "none",
+  "training_fraction": 1.0,
+  "dataset_id": "ff1e0eb402d364adaf0c3f9cc8b2351cde0657642bf4cb3ed56efcf31b67d1b0",
+  "split_id": "dc594d72745a65dc91937de31acb3e537c349028656b16548fce01eac4064243",
+  "checkpoint_path": "/content/drive/MyDrive/CS189/CS289A_Graduate_Project/models/mlp_f6e3bdcc0f323f5686b076575a75b7008f91185464f7b7d9683f23ef53e99973.pt",
+  "training_seconds": 74.91095396499986,
+  "accuracy": 0.8629827112619163,
+  "precision": 0.7481182795698925,
+  "recall": 0.5313096601756395,
+  "f1": 0.6213440500111632,
+  "roc_auc": 0.8853340349697664,
+  "confusion_matrix": "[[18581, 937], [2455, 2783]]",
+  "inference_seconds": 0.03346951700041245,
+  "threshold": 0.5
+}

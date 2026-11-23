@@ -1,0 +1,25 @@
+{
+  "lr": {
+    "C": 0.01
+  },
+  "svm": {
+    "C": 0.001
+  },
+  "rf": {
+    "max_depth": 12,
+    "min_samples_leaf": 4,
+    "n_estimators": 200
+  },
+  "mlp": {
+    "batch_size": 256,
+    "dropout": 0.2,
+    "epochs": 40,
+    "hidden": [
+      64,
+      32
+    ],
+    "lr": 0.0005,
+    "min_delta": 0.0001,
+    "patience": 6
+  }
+}

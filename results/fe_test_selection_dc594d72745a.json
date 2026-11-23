@@ -1,0 +1,16 @@
+{
+  "split": "dc594d72745a65dc91937de31acb3e537c349028656b16548fce01eac4064243",
+  "recipe": {
+    "version": 1,
+    "NumOfProducts_cat": "str(NumOfProducts)",
+    "Age_sq": "Age**2",
+    "ZeroBalance": "Balance == 0",
+    "Age_x_Inactive": "Age * (1 - IsActiveMember)"
+  },
+  "models": {
+    "lr": "67aa1ec60faabe9d8c11d4a9c78090f6362e6c668df252645f6f3f34d9aad27a",
+    "svm": "09a386f2760168e4510d7f5ab5c055d6ceced37809af480a7aa6c25b74195f4b",
+    "rf": "f068016caa716498d84ba1546640857c4119795bf4aa09971f831d8e4a030e2d",
+    "mlp": "cd52faf1a3ce507378c82e3cdd1cf570580beeb77f413eb9e64b01661ab0648d"
+  }
+}
